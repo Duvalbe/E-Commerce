@@ -13,6 +13,7 @@ public class Livre extends Article{
 		this.auteur=auteur;
 		this.editeur=editeur;
 		this.genre=genre;
+		
 	}
 	///Affichage
 @Override
