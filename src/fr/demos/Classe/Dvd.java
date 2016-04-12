@@ -11,8 +11,7 @@ public class Dvd extends Article {
 	public Dvd(int prixHt, int stock, String description, int reference,String titre, String auteur,  String genre) {
 		super(prixHt, stock, description, reference);
 		this.titre=titre;
-		this.auteur=auteur;
-		
+		this.auteur=auteur;	
 		this.genre=genre;
 	}
 	///Affichage
